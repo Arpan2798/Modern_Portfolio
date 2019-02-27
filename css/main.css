@@ -102,8 +102,7 @@ body {
   body#bg-img {
     background: url("../img/background.jpg");
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-size: cover; }
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -282,4 +281,6 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #bg-img {
+    background-repeat: no-repeat; } }
